@@ -1,1 +1,1 @@
-# Synergy_C-
+# Synergy_CPP
