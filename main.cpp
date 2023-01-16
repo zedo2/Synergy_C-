@@ -1,7 +1,22 @@
 #include <stdio.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
 main() {
-	printf("Hello");
+	int a, b;
+
+	printf("vvedite 1 chislo");
+	scanf("%i", &a);
+	printf("vvedite 2 chislo:");
+	scanf("%i", &b);
+
+	if(a>b) {
+		printf("bolshe");
+	}
+	else {
+		if(a<b) {
+			printf("menshe");
+		}
+		else {
+			printf("ravny");
+		}
+	}
 }
