@@ -1,22 +1,15 @@
 #include <stdio.h>
 
 main() {
-	int a, b;
-
-	printf("vvedite 1 chislo");
-	scanf("%i", &a);
-	printf("vvedite 2 chislo:");
-	scanf("%i", &b);
-
-	if(a>b) {
-		printf("bolshe");
+	long long int login, password;
+	printf("Enter your login and then password\nlogin");
+	scanf("%lli", &login);
+	printf("password");
+	scanf("%lli", &password);
+	if((login==1988 && password==2017) || (login==2000 && password==2021)) {
+		printf("Log In successfully, welcome");
 	}
 	else {
-		if(a<b) {
-			printf("menshe");
-		}
-		else {
-			printf("ravny");
-		}
+		printf("Log In failed, try again");
 	}
 }
