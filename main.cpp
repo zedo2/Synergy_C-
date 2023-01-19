@@ -1,15 +1,25 @@
 #include <stdio.h>
 
 main() {
-	long long int login, password;
-	printf("Enter your login and then password\nlogin");
-	scanf("%lli", &login);
-	printf("password");
-	scanf("%lli", &password);
-	if((login==1988 && password==2017) || (login==2000 && password==2021)) {
-		printf("Log In successfully, welcome");
-	}
-	else {
-		printf("Log In failed, try again");
+	int day;
+	printf("Enter the number of the day of the week ");
+	scanf("%i", &day);
+	
+	switch(day) {
+		case 1: printf("Monday");
+			break;
+		case 2: printf("Tuesday");
+			break;
+		case 3: printf("Wednesday");
+			break;
+		case 4: printf("Thursday");
+			break;
+		case 5: printf("Friday");
+			break;
+		case 6: printf("Saturday");
+			break;
+		case 7: printf("Sunday");
+			break;
+		default: printf("Error");
 	}
 }
