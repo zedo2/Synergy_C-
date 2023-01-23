@@ -1,12 +1,9 @@
 #include<iostream>
 #include<stdlib.h>
-#include <time.h>
+
 using namespace std;
  
 int main() {
-	const int MIN_VALUE = -2;
-  	const int MAX_VALUE = 7;
-	srand(time(NULL));
 	
 	int N, M;
     cout<<"vvedite razmery (2 chisla) : ";
