@@ -18,11 +18,27 @@ main() {
 		cin >> y;
 	    if(x<y) {
 	        cout << y << ' ';
-	        printf(" bolshe chisla x");
+	        printf(" bolshe chisla x\n");
 		}
 		if(x>y) {
 	        cout << y << ' ';
-	        printf(" menshe chisla x");
+	        printf(" menshe chisla x\n");
+		}
+		if(10<y) {
+	        cout << y << ' ';
+	        printf(" bolshe chisla 10\n");
+		}
+		if(10>y) {
+	        cout << y << ' ';
+	        printf(" menshe chisla 10\n");
+		}
+		if(y%2==0) {
+	        cout << y << ' ';
+	        printf(" chislo delitsya na 2\n");
+		}
+		if(y%3==0) {
+	        cout << y << ' ';
+	        printf(" chislo delitsya na 3\n");
 		}
 		if(x==y) {
 			cout << y << ' ';
