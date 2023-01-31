@@ -34,4 +34,5 @@ int main() {
         cout << arr[j] ;
         printf(" ");
     }
+    delete[] arr;
 }
