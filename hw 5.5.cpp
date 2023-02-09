@@ -51,4 +51,10 @@ int main() {
 		}
 	    cout << endl;
 	}
+	
+	for(int i = 0; i < N; ++i) {
+		delete[] A[i];
+	}
+	
+	delete[] A;
 }
