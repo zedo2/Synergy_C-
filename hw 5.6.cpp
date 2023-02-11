@@ -55,7 +55,14 @@ int main() {
 	    cout << endl;
 	}
 	
-		int X, Z;
+	for(int i = 0; i < N; ++i) {
+		delete[] A[i];
+	}
+	
+	delete[] A;
+	
+	
+	int X, Z;
     cout<<"vvedite razmery (2 chisla) : ";
     cin >> X >> Z;
     int ** B = new int * [X];
@@ -97,4 +104,10 @@ int main() {
 		}
 	    cout << endl << endl;
 	}
+	
+	for(int i = 0; i < X; ++i) {
+		delete[] B[i];
+	}
+	
+	delete[] B;
 }
