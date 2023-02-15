@@ -40,4 +40,6 @@ int main() {
     str = str.substr(0, del) + str.substr(del + 1);
     cout << str << " -posle udaleniya ";
 	}
+	
+	delete[] chars;
 }
